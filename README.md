@@ -1,12 +1,44 @@
-# React + Vite
+## Netflix Clone
+A responsive Netflix-inspired web application built with React that allows users to browse and play movie trailers using TMDB (The Movie Database) API, authenticate via Firebase, and receive feedback with React Toastify notifications.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ❤️Intent
+This intermediate project was built to learn React fundamentals, component-based architecture, and state management. It also focuses on integrating and handling external APIs like TMDB for real-time movie data, along with implementing Firebase Authentication for user login functionality.
 
-Currently, two official plugins are available:
+## Features
+- User Authentication using Firebase (Sign Up / Sign In / Sign Out)
+- Dynamic Movie Data from TMDB API
+- Movie trailer player embedded from YouTube
+- Categorized movie sections (e.g., Trending, Top Rated)
+- Hero banner
+- Toast notifications with React Toastify
+- Fully responsive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React.js	Frontend framework
+- TMDB API for Movie and TV data source
+- Firebase Auth	for User authentication
+- React Toastify for Toast messages for feedback
+- CSS for	UI Styling
 
-## Expanding the ESLint configuration
+## Screenshots
+- Login Sign Up Page
+![Auth Page](./public/ss1.png)
+- Home Page
+![Home Page](./public/ss2.png)
+- Video Player
+![Video Player](./public/ss3.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Acknowledgements
+- TMDB API
+- Firebase
+- React Toastify
+- Free Assets
+
+## Future TODOs
+- Add user watchlist
+- Implement user profiles
+- Improve trailer player with better fallback
+- Use Redux or Context API for state management
+
+## License
+This project is open source and free to use.
