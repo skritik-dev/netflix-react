@@ -1,0 +1,34 @@
+# Build output
+dist/
+build/
+
+# Node modules
+node_modules/
+
+# Vite cache
+.vite/
+
+# Local environment variables
+.env
+.env.* 
+
+# Logs
+*.log
+
+# Coverage reports
+coverage/
+
+# Optional: lock files if you prefer not to format them
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Public assets (optional, if you don't want Prettier to touch static files)
+public/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Misc
+*.DS_Store
